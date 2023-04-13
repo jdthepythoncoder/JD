@@ -1,0 +1,46 @@
+print("Sweet Shop")
+
+print("Which Sweet do you want to eat? \n")
+i = input("Cup Cake, Donut, Eclair, Froyo, Ginger Bread, Honey Comb, Ice Cream Sandwich, Jelly Bean, KitKat, Lollypop, Marshmallow, Nogut, Pie \n")
+
+if (i == "Cup Cake"):
+    print("Creamy cupcake is here.\n")
+
+elif (i == "Eclair"):
+    print("Chocolaty Eclair is here.\n")
+
+elif (i == "Froyo"):
+    print("Yummy Froyo is here.\n")
+
+elif (i == "Ginger Bread"):
+    print("Rosted Ginger Bread is here.\n")
+
+elif (i == "Honey Comb"):
+    print("Tasty Honey Comb is here.\n")
+
+elif (i == "Ice Cream Sandwich"):
+    print("Icy Ice Cream Sandwich is here.\n")
+
+elif (i == "Jelly Bean"):
+    print("Softy Jelly Bean is here.\n")
+
+elif (i == "KitKat"):
+    print("Cracky KitKat is here.\n")
+
+elif (i == "Lollypop"):
+    print("Licking lollypop is here..\n")
+
+elif (i == "Marsh Mallow"):
+    print("Delicious Marsh Mallow is here.\n")
+
+elif (i == "Nogut"):
+    print("Sweet Nogut is here.\n")
+
+elif (i == "Oreo"):
+    print("Crunchy Oreo is here.\n")
+
+elif (i == "Pie"):
+    print("Softy Pie is here.\n")
+
+else:
+    print("That new sweet will come soon")
